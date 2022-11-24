@@ -1,0 +1,10 @@
+.bg{
+    background-color: rgb(201, 201, 216) ;
+    color: black ;
+   display: flex !important;
+    width: 400px;
+    justify-content: center;
+   border: 30px;
+    text-align: center;
+
+}
