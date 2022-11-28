@@ -1,21 +1,29 @@
+import React, { Profiler } from 'react'
+//import './App.css';
+import FullName from './profile/FullName';
+import Address from './profile/Address';
+import ProfilePhoto from './profile/ProfilePhoto';
+import './profile/Formilaire.css'
 
-import React from 'react'
-import './App.css';
-import Formulaire from './components/Formulaire';
-const App = () => {
+function App() {
   return (
- 
- 
-<Formulaire/>
+  <div className='issam'>
+
+<FullName/>
+<Address/>
+<ProfilePhoto/>
 
 
-    
-  )
+
+
+
+</div>
+
+)
 }
-
+    
+  
 export default App
-
-
 
   
 
